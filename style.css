@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #45bebe 0%, #b932e2 100%);
+}
+
+#header{
+    font-size: 40px;
+}
+
+
+.container-main {
+    margin: 5%;
+    width: 600px;
+    padding: 5%;
+    background-color: aliceblue;
+    border-radius: 1%;
+}
+
+.completed { 
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.btn{
+    color:white;
+    border: none;
+}
+
+.save{
+    background-color: green;
+}
+
+.up, .down{
+    background-color: orange;
+    width: 60px;
+}
+.erase-task , .clear-list{
+    background-color: rgb(126, 10, 10);
+}
+.create-task{
+    background-color: rgb(25, 132, 219);
+    width: 100px;
+}
+.clear-complete{
+    background-color: rgb(25, 132, 219);
+    width: 150px;
+}
+
+.selected {
+    background-color: rgb(128, 128, 128);
+}
